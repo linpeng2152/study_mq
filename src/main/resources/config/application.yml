@@ -1,0 +1,7 @@
+
+spring:
+    po
+    application:
+        name: study_mq
+server:
+    port: 8081

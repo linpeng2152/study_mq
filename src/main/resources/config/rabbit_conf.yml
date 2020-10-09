@@ -1,0 +1,9 @@
+
+
+
+
+rabbit:
+    host: 111.231.82.55
+    v_host: my_vhost
+    user: admin
+    pwd: admin
