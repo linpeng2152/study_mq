@@ -1,7 +1,17 @@
 
 spring:
-    po
     application:
         name: study_mq
+    #MQ配置
+    rabbitmq:
+        host: 111.231.82.55
+        port: 5672
+        username: admin
+        password: admin
+        virtual-host: my_vhost
+
+
+
 server:
-    port: 8081
+    port: 8080
+
