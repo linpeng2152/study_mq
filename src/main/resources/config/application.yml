@@ -10,6 +10,13 @@ spring:
         password: admin
         virtual-host: my_vhost
 
+    activemq:
+        broker-url: tcp://111.231.82.55:61616
+        user: admin
+        password: admin
+        in-memory: true
+        pool.enabled: false
+
 
 
 server:

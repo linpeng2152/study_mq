@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.core.env.Environment;
+import org.springframework.jms.annotation.EnableJms;
 
 /**
  * @Author : linpeng
@@ -12,12 +13,8 @@ import org.springframework.core.env.Environment;
  */
 @SpringBootApplication
 @ServletComponentScan
+@EnableJms
 public class App {
-
-//    public static void main(String[] args){
-//        SpringApplication app = new SpringApplication(App.class);
-//        Environment env = app.run(args).getEnvironment();
-//    }
 
     public static void main(String[] args) {
         SpringApplication.run(App.class, args);
